@@ -26,8 +26,8 @@ config.front_end = "WebGpu"
 config.keys = {
 	{ key = "LeftArrow", mods = "OPT", action = act({ SendString = "\x1bb" }) },
 	{ key = "RightArrow", mods = "OPT", action = act({ SendString = "\x1bf" }) },
-	{ key = "h", mods = "CTRL", action = act.SplitVertical({ domain = "CurrentPaneDomain" }) },
-	{ key = "v", mods = "CTRL", action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
+	{ key = "h", mods = "ALT", action = act.SplitVertical({ domain = "CurrentPaneDomain" }) },
+	{ key = "v", mods = "ALT", action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
 	{
 		key = "k",
 		mods = "CMD",
